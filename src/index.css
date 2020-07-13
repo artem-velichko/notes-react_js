@@ -1,0 +1,106 @@
+@import "~materialize-css/dist/css/materialize.min.css"; 
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cover-user {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.container-btn {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.alert {
+  position: fixed;
+  z-index: 1000;
+  top: 25;
+  left: 50%;
+  width: 700px;
+  margin-left: -350px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  margin-top: 15px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.alert-success {
+  background-color: #26a69a;
+}
+
+.alert-warning {
+  background-color: #bb3f2b;
+}
+
+.container-del-note {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.marg {
+  margin-bottom: 75px;
+}
+
+.note {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-size: 15px;
+  color: #2bbbad;
+}
+
+.note p {
+  color: #292929; 
+  padding-top: 5px;
+  margin: 0;
+}
+
+.data-person {
+  margin-bottom: 30px;
+  font-size: 15px;
+  color: #2bbbad;
+}
+
+.person-name {
+  font-size: 15px;
+  color: #ccc;
+}
+
+.person-name h5 {
+  color: #292929;
+  margin-top: 5px;
+}
+
+.person-phone {
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: rgb(73, 73, 73);
+}
+
+.hr {
+  background-color: #ccc;
+  border: 1px solid rgb(237, 237, 237);
+}
